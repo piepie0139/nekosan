@@ -33,7 +33,7 @@ a {
 
 .top-wrapper p {
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 40px;
 }
 
@@ -45,17 +45,39 @@ a {
   margin-bottom: 20px;
 }
 
-.signup {
-  background-color: #239b76;
+.menu {
+  letter-spacing:10px;
+  background-color: #ddd678;
+  cursor: pointer;
+  box-shadow: 0px 7px #daa04b;
+  padding: 30px 40px;
+  width:100%;
 }
 
-.neko {
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.menu:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.facebook {
   background-color: #3b5998;
   margin-right: 10px;
 }
-
 .twitter {
-  background-color: #55acee;
+  background-color: #3aaef1;
+  margin-right: 10px;
+}
+.instagram{
+    background-color: #e9309c;
+    margin-right: 10px;
 }
 
 .btn {
@@ -112,24 +134,25 @@ header {
 }
 
 .lesson-wrapper {
-  height: 580px;
+  height: 500px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
   text-align: center;
 }
 
 .heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   color: #5f5d60;
 }
 
 .heading h2 {
   font-weight: normal;
 }
-
+.lessons{
+  width:100%;
+}
 .lesson {
   float: left;
   width: 25%;
@@ -141,7 +164,8 @@ header {
 
 .lesson-icon p {
   position: absolute;
-  top: 37%;
+  top: 30%;
+
   width: 100%;
   color: white;
 }
@@ -154,10 +178,6 @@ header {
   color: #b3aeb5;
 }
 
-.heading h3 {
-  font-weight: normal;
-}
-
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
@@ -165,21 +185,10 @@ header {
 }
 
 .message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
+  text-align: center;
 }
 
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
 
-footer img {
-  width: 125px;
-}
 
 footer p {
   color: #b3aeb5;
@@ -191,13 +200,7 @@ footer {
   padding-bottom: 20px;
 }
 
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
+
 
 .clear {
   clear: left;
